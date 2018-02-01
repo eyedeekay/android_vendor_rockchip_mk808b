@@ -46,7 +46,7 @@ repo sync -j32 -n
 repo sync -j32 -n
 repo sync -j2 -l
 
-DEVICES=$(for i in device/rockchip/*/proprietary-blobs.txt ; do basename $(dirname $i) ; done)
+DEVICES=$(for i in vendor/rockchip/*/proprietary-blobs.txt ; do basename $(dirname $i) ; done)
 
 export LC_ALL=C
 
@@ -61,7 +61,7 @@ else
   for DEVICENAME in $DEVICES
   do
     rm -rf out
-    lunch aosp_$DEVICENAME-user
+    lunch lineage_$DEVICENAME-userdebug
     make -j64
     cat out/target/product/$DEVICENAME/installed-files.txt |
       cut -b 15- |
@@ -72,7 +72,7 @@ else
   for DEVICENAME in $DEVICES
   do
     rm -rf out
-    lunch aosp_$DEVICENAME-user
+    lunch lineage_$DEVICENAME-userdebug
     make -j64
     cat out/target/product/$DEVICENAME/installed-files.txt |
       cut -b 15- |
