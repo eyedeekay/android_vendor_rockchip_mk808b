@@ -57,14 +57,12 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/etc/firmware/nvram_RK903.cal:system/etc/firmware/nvram_RK903.cal \
     vendor/rockchip/mk808b/proprietary/etc/firmware/nvram_RK903.txt:system/etc/firmware/nvram_RK903.txt \
     vendor/rockchip/mk808b/proprietary/etc/firmware/nvram_RK903_26M.cal:system/etc/firmware/nvram_RK903_26M.cal \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/otp.bin.z77:system/etc/firmware/otp.bin.z77 \
+	vendor/rockchip/mk808b/proprietary/etc/firmware/otp.bin.z77:system/etc/firmware/otp.bin.z77 \
     vendor/rockchip/mk808b/proprietary/etc/firmware/sd8686.bin:system/etc/firmware/sd8686.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/sd8686_helper.bin:system/etc/firmware/sd8686_helper.bin \
-    vendor/rockchip/mk808b/proprietary/lib/acoustics.default.so:system/lib/acoustics.default.so \
-    vendor/rockchip/mk808b/proprietary/lib/alsa.default.so:system/lib/alsa.default.so \
-    vendor/rockchip/mk808b/proprietary/lib/audio.primary.rk30board.so:system/lib/audio.primary.rk30board.so \
-    vendor/rockchip/mk808b/proprietary/lib/audio_policy.rk30board.so:system/lib/audio_policy.rk30board.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.beatpenguin/libGameLauncher.so:system/lib/com.trans.beatpenguin/libGameLauncher.so \
+    vendor/rockchip/mk808b/proprietary/etc/firmware/sd8686_helper.bin:system/etc/firmware/sd8686_helper.bin
+
+PRODUCT_COPY_FILES += \
+	vendor/rockchip/mk808b/proprietary/lib/com.trans.beatpenguin/libGameLauncher.so:system/lib/com.trans.beatpenguin/libGameLauncher.so \
     vendor/rockchip/mk808b/proprietary/lib/com.trans.beatpenguin/libGameMain.so:system/lib/com.trans.beatpenguin/libGameMain.so \
     vendor/rockchip/mk808b/proprietary/lib/com.trans.beatpenguin/libGameRegister.so:system/lib/com.trans.beatpenguin/libGameRegister.so \
     vendor/rockchip/mk808b/proprietary/lib/com.trans.beatpenguin/libRemoteInput.so:system/lib/com.trans.beatpenguin/libRemoteInput.so \
@@ -87,12 +85,15 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/lib/com.trans.tennis/libGameLauncher.so:system/lib/com.trans.tennis/libGameLauncher.so \
     vendor/rockchip/mk808b/proprietary/lib/com.trans.tennis/libGameMain.so:system/lib/com.trans.tennis/libGameMain.so \
     vendor/rockchip/mk808b/proprietary/lib/com.trans.tennis/libGameRegister.so:system/lib/com.trans.tennis/libGameRegister.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.tennis/libRemoteInput.so:system/lib/com.trans.tennis/libRemoteInput.so \
-    vendor/rockchip/mk808b/proprietary/lib/crtbegin_so.o:system/lib/crtbegin_so.o \
-    vendor/rockchip/mk808b/proprietary/lib/crtend_so.o:system/lib/crtend_so.o \
-    vendor/rockchip/mk808b/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
-    vendor/rockchip/mk808b/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/rockchip/mk808b/proprietary/lib/gralloc.rk30board.so:system/lib/gralloc.rk30board.so \
+    vendor/rockchip/mk808b/proprietary/lib/com.trans.tennis/libRemoteInput.so:system/lib/com.trans.tennis/libRemoteInput.so
+
+PRODUCT_COPY_FILES += \
+    vendor/rockchip/mk808b/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so
+
+PRODUCT_COPY_FILES += \
+    vendor/rockchip/mk808b/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg
+
+PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
     vendor/rockchip/mk808b/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     vendor/rockchip/mk808b/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
@@ -104,7 +105,35 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/lib/hw/lights.goldfish.so:system/lib/hw/lights.goldfish.so \
     vendor/rockchip/mk808b/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
     vendor/rockchip/mk808b/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
-    vendor/rockchip/mk808b/proprietary/lib/hw/sensors.goldfish.so:system/lib/hw/sensors.goldfish.so \
+    vendor/rockchip/mk808b/proprietary/lib/hw/sensors.goldfish.so:system/lib/hw/sensors.goldfish.so
+
+
+PRODUCT_COPY_FILES += \
+    vendor/rockchip/mk808b/proprietary/lib/modules/8188eu.ko:system/lib/modules/8188eu.ko \
+    vendor/rockchip/mk808b/proprietary/lib/modules/8188eu.ko.3.0.8+:system/lib/modules/8188eu.ko.3.0.8+ \
+    vendor/rockchip/mk808b/proprietary/lib/modules/8192cu.ko:system/lib/modules/8192cu.ko \
+    vendor/rockchip/mk808b/proprietary/lib/modules/8192cu.ko.3.0.8+:system/lib/modules/8192cu.ko.3.0.8+ \
+    vendor/rockchip/mk808b/proprietary/lib/modules/rk30_mirroring.ko.3.0.36+:system/lib/modules/rk30_mirroring.ko.3.0.36+ \
+    vendor/rockchip/mk808b/proprietary/lib/modules/rk30_mirroring.ko.3.0.8+:system/lib/modules/rk30_mirroring.ko.3.0.8+ \
+    vendor/rockchip/mk808b/proprietary/lib/modules/rt5370ap.ko:system/lib/modules/rt5370ap.ko \
+    vendor/rockchip/mk808b/proprietary/lib/modules/rt5370ap.ko.3.0.8+:system/lib/modules/rt5370ap.ko.3.0.8+ \
+    vendor/rockchip/mk808b/proprietary/lib/modules/rt5370sta.ko:system/lib/modules/rt5370sta.ko \
+    vendor/rockchip/mk808b/proprietary/lib/modules/rt5370sta.ko.3.0.8+:system/lib/modules/rt5370sta.ko.3.0.8+ \
+    vendor/rockchip/mk808b/proprietary/lib/modules/vpu_service.ko:system/lib/modules/vpu_service.ko \
+    vendor/rockchip/mk808b/proprietary/lib/modules/vpu_service.ko.3.0.36+:system/lib/modules/vpu_service.ko.3.0.36+
+
+PRODUCT_COPY_FILES += \
+    vendor/rockchip/mk808b/proprietary/lib/ssl/engines/libkeystore.so:system/lib/ssl/engines/libkeystore.so \
+    vendor/rockchip/mk808b/proprietary/lib/webkit_ver:system/lib/webkit_ver
+
+PRODUCT_COPY_FILES += \
+	vendor/rockchip/mk808b/proprietary/lib/acoustics.default.so:system/lib/acoustics.default.so \
+    vendor/rockchip/mk808b/proprietary/lib/alsa.default.so:system/lib/alsa.default.so \
+    vendor/rockchip/mk808b/proprietary/lib/audio.primary.rk30board.so:system/lib/audio.primary.rk30board.so \
+    vendor/rockchip/mk808b/proprietary/lib/audio_policy.rk30board.so:system/lib/audio_policy.rk30board.so \
+    vendor/rockchip/mk808b/proprietary/lib/crtbegin_so.o:system/lib/crtbegin_so.o \
+    vendor/rockchip/mk808b/proprietary/lib/crtend_so.o:system/lib/crtend_so.o \
+    vendor/rockchip/mk808b/proprietary/lib/gralloc.rk30board.so:system/lib/gralloc.rk30board.so \
     vendor/rockchip/mk808b/proprietary/lib/hwcomposer.rk30board.so:system/lib/hwcomposer.rk30board.so \
     vendor/rockchip/mk808b/proprietary/lib/invoke_mock_media_player.so:system/lib/invoke_mock_media_player.so \
     vendor/rockchip/mk808b/proprietary/lib/libEGL.so:system/lib/libEGL.so \
@@ -299,18 +328,4 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/lib/libwimo.so:system/lib/libwimo.so \
     vendor/rockchip/mk808b/proprietary/lib/libwnndict.so:system/lib/libwnndict.so \
     vendor/rockchip/mk808b/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
-    vendor/rockchip/mk808b/proprietary/lib/libz.so:system/lib/libz.so \
-    vendor/rockchip/mk808b/proprietary/lib/modules/8188eu.ko:system/lib/modules/8188eu.ko \
-    vendor/rockchip/mk808b/proprietary/lib/modules/8188eu.ko.3.0.8+:system/lib/modules/8188eu.ko.3.0.8+ \
-    vendor/rockchip/mk808b/proprietary/lib/modules/8192cu.ko:system/lib/modules/8192cu.ko \
-    vendor/rockchip/mk808b/proprietary/lib/modules/8192cu.ko.3.0.8+:system/lib/modules/8192cu.ko.3.0.8+ \
-    vendor/rockchip/mk808b/proprietary/lib/modules/rk30_mirroring.ko.3.0.36+:system/lib/modules/rk30_mirroring.ko.3.0.36+ \
-    vendor/rockchip/mk808b/proprietary/lib/modules/rk30_mirroring.ko.3.0.8+:system/lib/modules/rk30_mirroring.ko.3.0.8+ \
-    vendor/rockchip/mk808b/proprietary/lib/modules/rt5370ap.ko:system/lib/modules/rt5370ap.ko \
-    vendor/rockchip/mk808b/proprietary/lib/modules/rt5370ap.ko.3.0.8+:system/lib/modules/rt5370ap.ko.3.0.8+ \
-    vendor/rockchip/mk808b/proprietary/lib/modules/rt5370sta.ko:system/lib/modules/rt5370sta.ko \
-    vendor/rockchip/mk808b/proprietary/lib/modules/rt5370sta.ko.3.0.8+:system/lib/modules/rt5370sta.ko.3.0.8+ \
-    vendor/rockchip/mk808b/proprietary/lib/modules/vpu_service.ko:system/lib/modules/vpu_service.ko \
-    vendor/rockchip/mk808b/proprietary/lib/modules/vpu_service.ko.3.0.36+:system/lib/modules/vpu_service.ko.3.0.36+ \
-    vendor/rockchip/mk808b/proprietary/lib/ssl/engines/libkeystore.so:system/lib/ssl/engines/libkeystore.so \
-    vendor/rockchip/mk808b/proprietary/lib/webkit_ver:system/lib/webkit_ver
+    vendor/rockchip/mk808b/proprietary/lib/libz.so:system/lib/libz.so
