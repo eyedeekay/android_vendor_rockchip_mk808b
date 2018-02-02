@@ -34,6 +34,7 @@ if [ -f "$systemimg" ]; then
     cp vendor/rockchip/mk808b/* .
     rm -rf vendor
     sed -i 's|proprietary/vendor|proprietary|g' *.mk
+    sed -i 's|system/vendor|system|g' *.mk
 else
     echo "File not found"
 fi
