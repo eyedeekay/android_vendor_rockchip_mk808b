@@ -92,35 +92,19 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/lib/crtend_so.o:system/vendor/lib/crtend_so.o \
     vendor/rockchip/mk808b/proprietary/lib/drm/libfwdlockengine.so:system/vendor/lib/drm/libfwdlockengine.so \
     vendor/rockchip/mk808b/proprietary/lib/egl/egl.cfg:system/vendor/lib/egl/egl.cfg \
-    vendor/rockchip/mk808b/proprietary/lib/egl/libEGL_mali.so:system/vendor/lib/egl/libEGL_mali.so \
-    vendor/rockchip/mk808b/proprietary/lib/egl/libGLES_android.so:system/vendor/lib/egl/libGLES_android.so \
-    vendor/rockchip/mk808b/proprietary/lib/egl/libGLESv1_CM_mali.so:system/vendor/lib/egl/libGLESv1_CM_mali.so \
-    vendor/rockchip/mk808b/proprietary/lib/egl/libGLESv2_mali.so:system/vendor/lib/egl/libGLESv2_mali.so \
     vendor/rockchip/mk808b/proprietary/lib/gralloc.rk30board.so:system/vendor/lib/gralloc.rk30board.so \
     vendor/rockchip/mk808b/proprietary/lib/hw/acoustics.default.so:system/vendor/lib/hw/acoustics.default.so \
-    vendor/rockchip/mk808b/proprietary/lib/hw/alsa.default.so:system/vendor/lib/hw/alsa.default.so \
-    vendor/rockchip/mk808b/proprietary/lib/hw/audio.a2dp.default.so:system/vendor/lib/hw/audio.a2dp.default.so \
     vendor/rockchip/mk808b/proprietary/lib/hw/audio.primary.default.so:system/vendor/lib/hw/audio.primary.default.so \
-    vendor/rockchip/mk808b/proprietary/lib/hw/audio.primary.rk30board.so:system/vendor/lib/hw/audio.primary.rk30board.so \
     vendor/rockchip/mk808b/proprietary/lib/hw/audio.r_submix.default.so:system/vendor/lib/hw/audio.r_submix.default.so \
     vendor/rockchip/mk808b/proprietary/lib/hw/audio_policy.default.so:system/vendor/lib/hw/audio_policy.default.so \
-    vendor/rockchip/mk808b/proprietary/lib/hw/audio_policy.rk30board.so:system/vendor/lib/hw/audio_policy.rk30board.so \
     vendor/rockchip/mk808b/proprietary/lib/hw/bluetooth.default.so:system/vendor/lib/hw/bluetooth.default.so \
     vendor/rockchip/mk808b/proprietary/lib/hw/camera.goldfish.so:system/vendor/lib/hw/camera.goldfish.so \
-    vendor/rockchip/mk808b/proprietary/lib/hw/camera.rk30board.so:system/vendor/lib/hw/camera.rk30board.so \
     vendor/rockchip/mk808b/proprietary/lib/hw/gps.goldfish.so:system/vendor/lib/hw/gps.goldfish.so \
-    vendor/rockchip/mk808b/proprietary/lib/hw/gpu.rk30board.so:system/vendor/lib/hw/gpu.rk30board.so \
     vendor/rockchip/mk808b/proprietary/lib/hw/gralloc.default.so:system/vendor/lib/hw/gralloc.default.so \
-    vendor/rockchip/mk808b/proprietary/lib/hw/gralloc.rk30board.so:system/vendor/lib/hw/gralloc.rk30board.so \
-    vendor/rockchip/mk808b/proprietary/lib/hw/hwcomposer.rk30board.so:system/vendor/lib/hw/hwcomposer.rk30board.so \
-    vendor/rockchip/mk808b/proprietary/lib/hw/keystore.default.so:system/vendor/lib/hw/keystore.default.so \
     vendor/rockchip/mk808b/proprietary/lib/hw/lights.goldfish.so:system/vendor/lib/hw/lights.goldfish.so \
-    vendor/rockchip/mk808b/proprietary/lib/hw/lights.rk30board.so:system/vendor/lib/hw/lights.rk30board.so \
     vendor/rockchip/mk808b/proprietary/lib/hw/local_time.default.so:system/vendor/lib/hw/local_time.default.so \
     vendor/rockchip/mk808b/proprietary/lib/hw/power.default.so:system/vendor/lib/hw/power.default.so \
-    vendor/rockchip/mk808b/proprietary/lib/hw/power.rk30xx.so:system/vendor/lib/hw/power.rk30xx.so \
     vendor/rockchip/mk808b/proprietary/lib/hw/sensors.goldfish.so:system/vendor/lib/hw/sensors.goldfish.so \
-    vendor/rockchip/mk808b/proprietary/lib/hw/sensors.rk30board.so:system/vendor/lib/hw/sensors.rk30board.so \
     vendor/rockchip/mk808b/proprietary/lib/hwcomposer.rk30board.so:system/vendor/lib/hwcomposer.rk30board.so \
     vendor/rockchip/mk808b/proprietary/lib/invoke_mock_media_player.so:system/vendor/lib/invoke_mock_media_player.so \
     vendor/rockchip/mk808b/proprietary/lib/libEGL.so:system/vendor/lib/libEGL.so \
@@ -130,14 +114,11 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/lib/libGLESv1_CM.so:system/vendor/lib/libGLESv1_CM.so \
     vendor/rockchip/mk808b/proprietary/lib/libGLESv2.so:system/vendor/lib/libGLESv2.so \
     vendor/rockchip/mk808b/proprietary/lib/libMSPdf.861.so:system/vendor/lib/libMSPdf.861.so \
-    vendor/rockchip/mk808b/proprietary/lib/libMali.so:system/vendor/lib/libMali.so \
-    vendor/rockchip/mk808b/proprietary/lib/libOMX_Core.so:system/vendor/lib/libOMX_Core.so \
     vendor/rockchip/mk808b/proprietary/lib/libOpenMAXAL.so:system/vendor/lib/libOpenMAXAL.so \
     vendor/rockchip/mk808b/proprietary/lib/libOpenSLES.so:system/vendor/lib/libOpenSLES.so \
     vendor/rockchip/mk808b/proprietary/lib/libRS.so:system/vendor/lib/libRS.so \
     vendor/rockchip/mk808b/proprietary/lib/libRSDriver.so:system/vendor/lib/libRSDriver.so \
     vendor/rockchip/mk808b/proprietary/lib/libSR_AudioIn.so:system/vendor/lib/libSR_AudioIn.so \
-    vendor/rockchip/mk808b/proprietary/lib/libUMP.so:system/vendor/lib/libUMP.so \
     vendor/rockchip/mk808b/proprietary/lib/libWnnEngDic.so:system/vendor/lib/libWnnEngDic.so \
     vendor/rockchip/mk808b/proprietary/lib/libWnnJpnDic.so:system/vendor/lib/libWnnJpnDic.so \
     vendor/rockchip/mk808b/proprietary/lib/libandroid.so:system/vendor/lib/libandroid.so \
@@ -146,7 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/lib/libandroidfw.so:system/vendor/lib/libandroidfw.so \
     vendor/rockchip/mk808b/proprietary/lib/libapedec.so:system/vendor/lib/libapedec.so \
     vendor/rockchip/mk808b/proprietary/lib/libasan_preload.so:system/vendor/lib/libasan_preload.so \
-    vendor/rockchip/mk808b/proprietary/lib/libasound.so:system/vendor/lib/libasound.so \
     vendor/rockchip/mk808b/proprietary/lib/libaudioeffect_jni.so:system/vendor/lib/libaudioeffect_jni.so \
     vendor/rockchip/mk808b/proprietary/lib/libaudioflinger.so:system/vendor/lib/libaudioflinger.so \
     vendor/rockchip/mk808b/proprietary/lib/libaudioutils.so:system/vendor/lib/libaudioutils.so \
@@ -209,7 +189,6 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/lib/libicui18n.so:system/vendor/lib/libicui18n.so \
     vendor/rockchip/mk808b/proprietary/lib/libicuuc.so:system/vendor/lib/libicuuc.so \
     vendor/rockchip/mk808b/proprietary/lib/libinput.so:system/vendor/lib/libinput.so \
-    vendor/rockchip/mk808b/proprietary/lib/libion.so:system/vendor/lib/libion.so \
     vendor/rockchip/mk808b/proprietary/lib/libiprouteutil.so:system/vendor/lib/libiprouteutil.so \
     vendor/rockchip/mk808b/proprietary/lib/libjavacore.so:system/vendor/lib/libjavacore.so \
     vendor/rockchip/mk808b/proprietary/lib/libjesancache.so:system/vendor/lib/libjesancache.so \
@@ -220,8 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/lib/libjni_pinyinime.so:system/vendor/lib/libjni_pinyinime.so \
     vendor/rockchip/mk808b/proprietary/lib/libjnigraphics.so:system/vendor/lib/libjnigraphics.so \
     vendor/rockchip/mk808b/proprietary/lib/libjpeg.so:system/vendor/lib/libjpeg.so \
-    vendor/rockchip/mk808b/proprietary/lib/libjpeghwdec.so:system/vendor/lib/libjpeghwdec.so \
-    vendor/rockchip/mk808b/proprietary/lib/libjpeghwenc.so:system/vendor/lib/libjpeghwenc.so \
     vendor/rockchip/mk808b/proprietary/lib/libkeystore_client.so:system/vendor/lib/libkeystore_client.so \
     vendor/rockchip/mk808b/proprietary/lib/liblog.so:system/vendor/lib/liblog.so \
     vendor/rockchip/mk808b/proprietary/lib/libm.so:system/vendor/lib/libm.so \
@@ -237,8 +214,6 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/lib/libnetutils.so:system/vendor/lib/libnetutils.so \
     vendor/rockchip/mk808b/proprietary/lib/libnfc_ndef.so:system/vendor/lib/libnfc_ndef.so \
     vendor/rockchip/mk808b/proprietary/lib/libntfs-3g.so:system/vendor/lib/libntfs-3g.so \
-    vendor/rockchip/mk808b/proprietary/lib/libomxvpu.so:system/vendor/lib/libomxvpu.so \
-    vendor/rockchip/mk808b/proprietary/lib/libomxvpu_enc.so:system/vendor/lib/libomxvpu_enc.so \
     vendor/rockchip/mk808b/proprietary/lib/libpagemap.so:system/vendor/lib/libpagemap.so \
     vendor/rockchip/mk808b/proprietary/lib/libpatts_engine_jni_api.so:system/vendor/lib/libpatts_engine_jni_api.so \
     vendor/rockchip/mk808b/proprietary/lib/libpcmhost_skype.so:system/vendor/lib/libpcmhost_skype.so \
@@ -251,11 +226,9 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/lib/libppbox_jni-armandroid-r4-gcc44-mt-1.0.0.so:system/vendor/lib/libppbox_jni-armandroid-r4-gcc44-mt-1.0.0.so \
     vendor/rockchip/mk808b/proprietary/lib/libpplive_dmc_jni.so:system/vendor/lib/libpplive_dmc_jni.so \
     vendor/rockchip/mk808b/proprietary/lib/libreference-ril.so:system/vendor/lib/libreference-ril.so \
-    vendor/rockchip/mk808b/proprietary/lib/libril-rk29-dataonly.so:system/vendor/lib/libril-rk29-dataonly.so \
     vendor/rockchip/mk808b/proprietary/lib/libril.so:system/vendor/lib/libril.so \
     vendor/rockchip/mk808b/proprietary/lib/librk_on2.so:system/vendor/lib/librk_on2.so \
     vendor/rockchip/mk808b/proprietary/lib/librkffplayer.so:system/vendor/lib/librkffplayer.so \
-    vendor/rockchip/mk808b/proprietary/lib/librkswscale.so:system/vendor/lib/librkswscale.so \
     vendor/rockchip/mk808b/proprietary/lib/librkwmapro.so:system/vendor/lib/librkwmapro.so \
     vendor/rockchip/mk808b/proprietary/lib/librockchip_update_jni.so:system/vendor/lib/librockchip_update_jni.so \
     vendor/rockchip/mk808b/proprietary/lib/librs_jni.so:system/vendor/lib/librs_jni.so \
@@ -296,7 +269,6 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/lib/libstagefright_soft_vpxdec.so:system/vendor/lib/libstagefright_soft_vpxdec.so \
     vendor/rockchip/mk808b/proprietary/lib/libstagefright_wfd.so:system/vendor/lib/libstagefright_wfd.so \
     vendor/rockchip/mk808b/proprietary/lib/libstagefright_yuv.so:system/vendor/lib/libstagefright_yuv.so \
-    vendor/rockchip/mk808b/proprietary/lib/libstagefrighthw.so:system/vendor/lib/libstagefrighthw.so \
     vendor/rockchip/mk808b/proprietary/lib/libstdc++.so:system/vendor/lib/libstdc++.so \
     vendor/rockchip/mk808b/proprietary/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/rockchip/mk808b/proprietary/lib/libsurfaceflinger.so:system/vendor/lib/libsurfaceflinger.so \
@@ -321,42 +293,24 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/lib/libvinit.so:system/vendor/lib/libvinit.so \
     vendor/rockchip/mk808b/proprietary/lib/libvorbisencoder.so:system/vendor/lib/libvorbisencoder.so \
     vendor/rockchip/mk808b/proprietary/lib/libvorbisidec.so:system/vendor/lib/libvorbisidec.so \
-    vendor/rockchip/mk808b/proprietary/lib/libvpu.so:system/vendor/lib/libvpu.so \
     vendor/rockchip/mk808b/proprietary/lib/libwebcore.so:system/vendor/lib/libwebcore.so \
     vendor/rockchip/mk808b/proprietary/lib/libwebrtc_audio_preprocessing.so:system/vendor/lib/libwebrtc_audio_preprocessing.so \
     vendor/rockchip/mk808b/proprietary/lib/libwilhelm.so:system/vendor/lib/libwilhelm.so \
     vendor/rockchip/mk808b/proprietary/lib/libwimo.so:system/vendor/lib/libwimo.so \
     vendor/rockchip/mk808b/proprietary/lib/libwnndict.so:system/vendor/lib/libwnndict.so \
     vendor/rockchip/mk808b/proprietary/lib/libwpa_client.so:system/vendor/lib/libwpa_client.so \
-    vendor/rockchip/mk808b/proprietary/lib/libyuvtorgb.so:system/vendor/lib/libyuvtorgb.so \
     vendor/rockchip/mk808b/proprietary/lib/libz.so:system/vendor/lib/libz.so \
     vendor/rockchip/mk808b/proprietary/lib/modules/8188eu.ko:system/vendor/lib/modules/8188eu.ko \
     vendor/rockchip/mk808b/proprietary/lib/modules/8188eu.ko.3.0.8+:system/vendor/lib/modules/8188eu.ko.3.0.8+ \
     vendor/rockchip/mk808b/proprietary/lib/modules/8192cu.ko:system/vendor/lib/modules/8192cu.ko \
     vendor/rockchip/mk808b/proprietary/lib/modules/8192cu.ko.3.0.8+:system/vendor/lib/modules/8192cu.ko.3.0.8+ \
-    vendor/rockchip/mk808b/proprietary/lib/modules/mali.ko:system/vendor/lib/modules/mali.ko \
-    vendor/rockchip/mk808b/proprietary/lib/modules/mali.ko.3.0.36+:system/vendor/lib/modules/mali.ko.3.0.36+ \
-    vendor/rockchip/mk808b/proprietary/lib/modules/rk29-ipp.ko:system/vendor/lib/modules/rk29-ipp.ko \
-    vendor/rockchip/mk808b/proprietary/lib/modules/rk29-ipp.ko.3.0.36+:system/vendor/lib/modules/rk29-ipp.ko.3.0.36+ \
     vendor/rockchip/mk808b/proprietary/lib/modules/rk30_mirroring.ko.3.0.36+:system/vendor/lib/modules/rk30_mirroring.ko.3.0.36+ \
     vendor/rockchip/mk808b/proprietary/lib/modules/rk30_mirroring.ko.3.0.8+:system/vendor/lib/modules/rk30_mirroring.ko.3.0.8+ \
-    vendor/rockchip/mk808b/proprietary/lib/modules/rkwifi.ko:system/vendor/lib/modules/rkwifi.ko \
-    vendor/rockchip/mk808b/proprietary/lib/modules/rkwifi.ko.3.0.8+:system/vendor/lib/modules/rkwifi.ko.3.0.8+ \
     vendor/rockchip/mk808b/proprietary/lib/modules/rt5370ap.ko:system/vendor/lib/modules/rt5370ap.ko \
     vendor/rockchip/mk808b/proprietary/lib/modules/rt5370ap.ko.3.0.8+:system/vendor/lib/modules/rt5370ap.ko.3.0.8+ \
     vendor/rockchip/mk808b/proprietary/lib/modules/rt5370sta.ko:system/vendor/lib/modules/rt5370sta.ko \
     vendor/rockchip/mk808b/proprietary/lib/modules/rt5370sta.ko.3.0.8+:system/vendor/lib/modules/rt5370sta.ko.3.0.8+ \
-    vendor/rockchip/mk808b/proprietary/lib/modules/ump.ko:system/vendor/lib/modules/ump.ko \
-    vendor/rockchip/mk808b/proprietary/lib/modules/ump.ko.3.0.36+:system/vendor/lib/modules/ump.ko.3.0.36+ \
     vendor/rockchip/mk808b/proprietary/lib/modules/vpu_service.ko:system/vendor/lib/modules/vpu_service.ko \
     vendor/rockchip/mk808b/proprietary/lib/modules/vpu_service.ko.3.0.36+:system/vendor/lib/modules/vpu_service.ko.3.0.36+ \
-    vendor/rockchip/mk808b/proprietary/lib/modules/wlan.ko:system/vendor/lib/modules/wlan.ko \
-    vendor/rockchip/mk808b/proprietary/lib/modules/wlan.ko.3.0.8+:system/vendor/lib/modules/wlan.ko.3.0.8+ \
-    vendor/rockchip/mk808b/proprietary/lib/registry:system/vendor/lib/registry \
-    vendor/rockchip/mk808b/proprietary/lib/soundfx/libaudiopreprocessing.so:system/vendor/lib/soundfx/libaudiopreprocessing.so \
-    vendor/rockchip/mk808b/proprietary/lib/soundfx/libbundlewrapper.so:system/vendor/lib/soundfx/libbundlewrapper.so \
-    vendor/rockchip/mk808b/proprietary/lib/soundfx/libdownmix.so:system/vendor/lib/soundfx/libdownmix.so \
-    vendor/rockchip/mk808b/proprietary/lib/soundfx/libreverbwrapper.so:system/vendor/lib/soundfx/libreverbwrapper.so \
-    vendor/rockchip/mk808b/proprietary/lib/soundfx/libvisualizer.so:system/vendor/lib/soundfx/libvisualizer.so \
     vendor/rockchip/mk808b/proprietary/lib/ssl/engines/libkeystore.so:system/vendor/lib/ssl/engines/libkeystore.so \
     vendor/rockchip/mk808b/proprietary/lib/webkit_ver:system/vendor/lib/webkit_ver
