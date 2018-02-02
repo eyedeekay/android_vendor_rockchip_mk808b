@@ -1,7 +1,5 @@
 
 # Libraries taken from FinlessROM
-vendor/lib/acoustics.default.so
-vendor/lib/alsa.default.so
 vendor/lib/audio_policy.rk30board.so
 vendor/lib/audio.primary.rk30board.so
 vendor/lib/crtbegin_so.o
