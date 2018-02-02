@@ -62,32 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/etc/firmware/sd8686_helper.bin:system/etc/firmware/sd8686_helper.bin
 
 PRODUCT_COPY_FILES += \
-	vendor/rockchip/mk808b/proprietary/lib/com.trans.beatpenguin/libGameLauncher.so:system/lib/com.trans.beatpenguin/libGameLauncher.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.beatpenguin/libGameMain.so:system/lib/com.trans.beatpenguin/libGameMain.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.beatpenguin/libGameRegister.so:system/lib/com.trans.beatpenguin/libGameRegister.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.beatpenguin/libRemoteInput.so:system/lib/com.trans.beatpenguin/libRemoteInput.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.dancingbeats/libGameLauncher.so:system/lib/com.trans.dancingbeats/libGameLauncher.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.dancingbeats/libGameMain.so:system/lib/com.trans.dancingbeats/libGameMain.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.dancingbeats/libGameRegister.so:system/lib/com.trans.dancingbeats/libGameRegister.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.dancingbeats/libRemoteInput.so:system/lib/com.trans.dancingbeats/libRemoteInput.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.hurdling/libGameLauncher.so:system/lib/com.trans.hurdling/libGameLauncher.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.hurdling/libGameMain.so:system/lib/com.trans.hurdling/libGameMain.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.hurdling/libGameRegister.so:system/lib/com.trans.hurdling/libGameRegister.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.hurdling/libRemoteInput.so:system/lib/com.trans.hurdling/libRemoteInput.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.pingpang2/libGameLauncher.so:system/lib/com.trans.pingpang2/libGameLauncher.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.pingpang2/libGameMain.so:system/lib/com.trans.pingpang2/libGameMain.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.pingpang2/libGameRegister.so:system/lib/com.trans.pingpang2/libGameRegister.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.pingpang2/libRemoteInput.so:system/lib/com.trans.pingpang2/libRemoteInput.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.sprint/libGameLauncher.so:system/lib/com.trans.sprint/libGameLauncher.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.sprint/libGameMain.so:system/lib/com.trans.sprint/libGameMain.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.sprint/libGameRegister.so:system/lib/com.trans.sprint/libGameRegister.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.sprint/libRemoteInput.so:system/lib/com.trans.sprint/libRemoteInput.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.tennis/libGameLauncher.so:system/lib/com.trans.tennis/libGameLauncher.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.tennis/libGameMain.so:system/lib/com.trans.tennis/libGameMain.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.tennis/libGameRegister.so:system/lib/com.trans.tennis/libGameRegister.so \
-    vendor/rockchip/mk808b/proprietary/lib/com.trans.tennis/libRemoteInput.so:system/lib/com.trans.tennis/libRemoteInput.so
-
-PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so
 
 PRODUCT_COPY_FILES += \
