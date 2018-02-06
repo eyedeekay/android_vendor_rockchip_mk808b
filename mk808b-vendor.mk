@@ -19,47 +19,15 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/etc/firmware/RT5370AP.dat:system/etc/firmware/RT5370AP.dat \
     vendor/rockchip/mk808b/proprietary/etc/firmware/RT5370STA.dat:system/etc/firmware/RT5370STA.dat \
     vendor/rockchip/mk808b/proprietary/etc/firmware/WIFI_RAM_CODE:system/etc/firmware/WIFI_RAM_CODE \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/athtcmd_ram.bin:system/etc/firmware/athtcmd_ram.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/athwlan.bin.z77:system/etc/firmware/athwlan.bin.z77 \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/bdata.SD31.bin:system/etc/firmware/bdata.SD31.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/data.patch.hw2_0.bin:system/etc/firmware/data.patch.hw2_0.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/device.bin:system/etc/firmware/device.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_RK901.bin:system/etc/firmware/fw_RK901.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_RK901a0.bin:system/etc/firmware/fw_RK901a0.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_RK901a0_apsta.bin:system/etc/firmware/fw_RK901a0_apsta.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_RK901a2.bin:system/etc/firmware/fw_RK901a2.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_RK901a2_apsta.bin:system/etc/firmware/fw_RK901a2_apsta.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_RK901a2_p2p.bin:system/etc/firmware/fw_RK901a2_p2p.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_RK903.bin:system/etc/firmware/fw_RK903.bin \
     vendor/rockchip/mk808b/proprietary/etc/firmware/fw_RK903_ag.bin:system/etc/firmware/fw_RK903_ag.bin \
     vendor/rockchip/mk808b/proprietary/etc/firmware/fw_RK903_ag_apsta.bin:system/etc/firmware/fw_RK903_ag_apsta.bin \
     vendor/rockchip/mk808b/proprietary/etc/firmware/fw_RK903_ag_p2p.bin:system/etc/firmware/fw_RK903_ag_p2p.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_RK903_p2p.bin:system/etc/firmware/fw_RK903_p2p.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_RK903b2.bin:system/etc/firmware/fw_RK903b2.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_RK903b2_apsta.bin:system/etc/firmware/fw_RK903b2_apsta.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_RK903b2_p2p.bin:system/etc/firmware/fw_RK903b2_p2p.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_bcm4319.bin:system/etc/firmware/fw_bcm4319.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_bcm4329_wapi.bin:system/etc/firmware/fw_bcm4329_wapi.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_bcm4330.bin:system/etc/firmware/fw_bcm4330.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/fw_bcm4330_apsta.bin:system/etc/firmware/fw_bcm4330_apsta.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/nvram.txt:system/etc/firmware/nvram.txt \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/nvram_4330.txt:system/etc/firmware/nvram_4330.txt \
     vendor/rockchip/mk808b/proprietary/etc/firmware/nvram_AP6181.txt:system/etc/firmware/nvram_AP6181.txt \
     vendor/rockchip/mk808b/proprietary/etc/firmware/nvram_AP6210.txt:system/etc/firmware/nvram_AP6210.txt \
     vendor/rockchip/mk808b/proprietary/etc/firmware/nvram_AP6330.txt:system/etc/firmware/nvram_AP6330.txt \
     vendor/rockchip/mk808b/proprietary/etc/firmware/nvram_AP6476.txt:system/etc/firmware/nvram_AP6476.txt \
     vendor/rockchip/mk808b/proprietary/etc/firmware/nvram_AP6493.txt:system/etc/firmware/nvram_AP6493.txt \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/nvram_B23.txt:system/etc/firmware/nvram_B23.txt \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/nvram_GB86302I.txt:system/etc/firmware/nvram_GB86302I.txt \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/nvram_RK901.txt:system/etc/firmware/nvram_RK901.txt \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/nvram_RK903.cal:system/etc/firmware/nvram_RK903.cal \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/nvram_RK903.txt:system/etc/firmware/nvram_RK903.txt \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/nvram_RK903_26M.cal:system/etc/firmware/nvram_RK903_26M.cal \
-	vendor/rockchip/mk808b/proprietary/etc/firmware/otp.bin.z77:system/etc/firmware/otp.bin.z77 \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/sd8686.bin:system/etc/firmware/sd8686.bin \
-    vendor/rockchip/mk808b/proprietary/etc/firmware/sd8686_helper.bin:system/etc/firmware/sd8686_helper.bin
+    vendor/rockchip/mk808b/proprietary/etc/firmware/nvram_GB86302I.txt:system/etc/firmware/nvram_GB86302I.txt
 
 PRODUCT_COPY_FILES += \
     vendor/rockchip/mk808b/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so
