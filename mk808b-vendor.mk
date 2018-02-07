@@ -271,3 +271,18 @@ PRODUCT_COPY_FILES += \
 #    vendor/rockchip/mk808b/proprietary/lib/libwnndict.so:system/lib/libwnndict.so \
 #    vendor/rockchip/mk808b/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
 #    vendor/rockchip/mk808b/proprietary/lib/libz.so:system/lib/libz.so
+
+ADDITIONAL_DEFAULT_PROPERTIES += \
+    wifi.interface=wlan0 \
+    persist.sys.strictmode.visual=false \
+    ro.default.size=100 \
+    persist.ro.hardware=rk30board \
+    ro.product.manufacturer=Rockchip \
+    ro.product.model=mk808b
+#    ro.sf.fakerotation=true
+#    ro.sf.hwrotation=270
+
+# Debug
+ADDITIONAL_DEFAULT_PROPERTIES += \
+    ro.secure=0 \
+    ro.debuggable=1
